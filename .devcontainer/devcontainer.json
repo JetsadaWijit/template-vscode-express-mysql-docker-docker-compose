@@ -1,0 +1,17 @@
+{
+    "name": "Express - MySQL - Docker - Docker Compose",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "workbench.colorTheme": "Default Dark Modern"
+            },
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "github.copilot",
+                "alefragnani.bookmarks",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "postCreateCommand": "cd src && npm install"
+}
